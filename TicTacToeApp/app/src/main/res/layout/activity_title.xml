@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TitleActivity"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="@string/title"
+        android:textSize="24sp"
+        app:fontFamily="monospace" />
+
+
+    <ImageView
+        android:id="@+id/x"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_weight="1"
+        android:src="@drawable/x" />
+
+    <ImageView
+        android:id="@+id/o"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:layout_weight="1"
+        android:src="@drawable/o" />
+
+    <EditText
+        android:id="@+id/nameEntry"
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:hint="@string/player_name_hint"
+        android:textSize="24sp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="onStartGame"
+        android:text="@string/enterGame"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/intro" />
+
+
+</LinearLayout>

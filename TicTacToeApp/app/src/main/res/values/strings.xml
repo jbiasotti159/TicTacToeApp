@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TicTacToe App</string>
+    <string name ="title">Welcome to Tic Tac Toe!</string>
+    <string name ="player_name_hint">Please enter your name:</string>
+    <string name="intro">Instructions: User will be X\'s and computer will be O\'s. Just click on the space when it is your turn.</string>
+    <string name="enterGame">Start</string>
+</resources>
